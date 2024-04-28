@@ -191,6 +191,8 @@ function App() {
 				</div>
 			</div>
 
+			<footer>Made by Malak Ali</footer>
+
 			<div className="buttons">
 				{/* <button
 				onClick={() => {
