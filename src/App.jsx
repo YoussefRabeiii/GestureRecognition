@@ -191,7 +191,8 @@ function App() {
 				</div>
 			</div>
 
-			<button
+			<div className="buttons">
+				{/* <button
 				onClick={() => {
 					const videoTag = document.getElementById("video");
 					videoTag.volume = 1;
@@ -207,7 +208,8 @@ function App() {
 			</button>
 			<button onClick={() => videoRef.current.play()}>play</button>
 			<button onClick={() => videoRef.current.pause()}>stop</button>
-			<button onClick={() => videoRef.current.load()}>load</button>
+			<button onClick={() => videoRef.current.load()}>load</button> */}
+			</div>
 		</div>
 	);
 }
